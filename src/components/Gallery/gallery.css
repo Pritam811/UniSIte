@@ -1,0 +1,23 @@
+.g-container{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+}
+.gallery{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+img{
+    width: 20rem;
+    height: 23rem;
+    margin: 12px;
+    border-radius: 20px;
+    
+}
+img:hover{
+    box-shadow: 3px 2px 12px rgb(73, 200, 187,0.8);
+}

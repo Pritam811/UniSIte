@@ -1,0 +1,80 @@
+.c-container{
+    margin: 80px auto;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-left{
+    max-width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px;
+    border-radius: 20px;
+    box-shadow: 5px 6px gainsboro;
+}
+.c-left h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0px;
+    color: turquoise;
+}
+.c-left p{
+    color: black;
+    margin: 0;
+    width:80%;
+    text-align: justify;
+    margin-bottom: 12px;
+}
+.c-left ul li{
+    list-style: none;
+    margin:12px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.c-left ul li img{
+    width: 25px;
+    height: 30px;
+}
+.c-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px 3px 2px gainsboro;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.c-right form{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6px 0px;
+
+}
+input{
+    box-sizing: border-box;
+    width: 600px;
+    margin: 9px 15px;
+    padding: 7px;
+    outline: none;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.text{
+    width: 600px;
+    outline: none;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 12px;
+    margin: 3px 0px 9px 0px;
+}
+.c-btn{
+    margin: 5px 0px 12px 0px;
+}
